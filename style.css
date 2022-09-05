@@ -1,0 +1,80 @@
+.card .card-header {
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #fff;
+    border-bottom: none;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.userInfo .userName {
+    font-size: 18px;
+
+}
+
+.checked {
+    color: orange;
+}
+
+.content {
+    display: flex;
+}
+
+.userInfo {
+    padding-left: 7px;
+}
+
+.col-lg-8 .card .card-body .card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body {
+    padding-bottom: 0px !important;
+    border-bottom: 2px solid #F8F9FA;
+}
+
+form .form-header {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+textarea {
+    max-height: 150px;
+}
+
+.ratingScor {
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 3px;
+}
+
+td {
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    font-size: 18px;
+    vertical-align: middle;
+    /* vertical-align: dikey eksende ortalamaya yarar */
+}
+
+.progress {
+    height: 10px !important;
+}
+
+/* progress: içinin bir kısmı dolu olan bar  */
+
+td:first-child {
+    width: 60px;
+}
+
+td:last-child {
+    width: 50px;
+}
